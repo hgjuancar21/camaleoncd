@@ -1,9 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
 
-  <iframe
-    src="https://www.youtube-nocookie.com/embed/jE1EU1ACe6s?controls=0"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen>
-  </iframe>
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mi pagina con Materialize</title>
+</head>
+<body>
+	Hola Materialize
+
+	<nav>
+    <div class="nav-wrapper">
+      <a href="#!" class="brand-logo">Logo</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="sass.html">Sass</a></li>
+    <li><a href="badges.html">Components</a></li>
+    <li><a href="collapsible.html">Javascript</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+
+
+
+	<div class="row right-align">
+      <div class="col s12 m12 l4 red" >1</div>
+      <div class="col s2 m6 l4 blue">2</div>
+      <div class="col s10 m6 l4 green">3</div>
+  	</div>
+
+
+	<div class="row hoverable ">
+      <div class="col s12 m12 l4 red darken-2 hide-on-small-only" >
+      	
+
+<div class="video-container">
+
+
+		<iframe 
+			width="560" 
+			height="315" 
+			src="https://www.youtube.com/embed/BkNPG-4lYKc?si=4Vgsf2HZfSltRvoE" 
+			title="YouTube video player" 
+			frameborder="0" 
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+			referrerpolicy="strict-origin-when-cross-origin" 
+			allowfullscreen>			
+		</iframe>
+
+      </div>
+
+
+
+
+      </div>
+      <div class="col s2 m6 l4 #0d47a1 blue darken-2 center-align">    	
+		<img src="img/mario.png" class="circle responsive-img">
+      </div>
+      <div class="col s10 m6 l4  light-green center-align hide-on-small-only">
+      	
+
+    <iframe 
+        	width="853" 
+        	height="480" 
+        	src="http://www.youtube.com/embed/Q8TXgCzxEnw?rel=0" 
+        	frameborder="0" 
+        	referrerpolicy="strict-origin-when-cross-origin" 
+        	allowfullscreen>
+        </iframe>
+
+
+
+
+      </div>
+  	</div>
+
+<div class="row">
+	<div class="col s2 m2 l2 red"></div>
+  	<div class="col s8 m8 l8 blue">  	
+  		<video class="responsive-video" controls>
+    		<source src="video.mkv" type="video/mp4">
+  		</video>
+  	</div>    	
+  	
+  	<div class="col s2 m2 l2 red"></div>
+</div>
+
+
+<div class="row">
+	<div class="col s8 m8 l8 offset-s2 offset-m2 offset-l2 blue">  	
+  		<video class="responsive-video" controls>
+    		<source src="video.mkv" type="video/mp4">
+  		</video>
+  	</div>
+</div>
+
+<div class="row">
+	<div class="col s7 push-s5">
+	<span class="flow-text">
+		<video class="responsive-video" controls>
+    		<source src="video.mkv" type="video/mp4">
+  		</video>
+  	</span>
+  	</div>
+
+  	<div class="col m5 pull-m7">
+	<span class="flow-text">
+		<video class="responsive-video" controls>
+    		<source src="video.mkv" type="video/mp4">
+  		</video>
+  	</span>
+  	</div>
+  		
+  		
+  	</div>
+
+  
+        
+
+</div>
+
+<script>
+	  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+</script>
+
+</body>
+</html>
